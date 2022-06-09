@@ -1,0 +1,98 @@
+//police , regle generale sur le projet
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow: hidden visible;
+    background-color: #fafafa;
+
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    background: -webkit-linear-gradient($clr-primaire, $clr-tertiaire);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ; 
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+}
+.tittleSection{
+    position: relative;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: -1rem;
+        left: 0;
+        width: 50px;
+        height: 5px;
+        background-color: $clr-flash;
+    }
+}
+a{
+    text-decoration: none;
+}
+p,button,li,a{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+p{
+    font-size: 20px;
+}
+
+.svg-competence {
+    font-family: sans-serif;
+    height: 70px;
+    width: 70px;
+    margin-bottom:1rem;
+    @include mobile-only{
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+    }
+}
+.svg-competenceProjet{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 0;
+    @include mobile-only{
+        height: 30px;
+        width: 30px;      
+    } 
+}
+.titre-competence {
+    fill: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 0 0 1px #000000;
+}
+  
+.version-competence {
+    font-size: 65px;
+    opacity: 0.4;
+    @include mobile-only{
+        font-size: 40px;
+        border-radius: 0 2rem;
+    }
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+figure{
+    margin: 0;
+}

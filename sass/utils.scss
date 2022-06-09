@@ -1,0 +1,82 @@
+// variable, fonction, mixins
+
+$clr-primaire: #91CC92 ;
+$clr-secondaire: #ADCC91;
+$clr-tertiaire: #F2EB8D;
+$clr-flash: #F67095; 
+$clr-fond: #f9efed;
+
+$breakpoints: (
+    tablette_min:600px,
+    tablette_max:1023px, 
+    mobile:599px
+);
+@mixin tablette {
+    @media screen and (max-width:map-get($breakpoints,"tablette_max")){
+        @content;
+    }
+}
+@mixin tablette-only {
+    @media screen and ( min-width: map-get($breakpoints, "tablette_min")) and ( max-width: map-get($breakpoints, "tablette_max")) {
+        @content;
+    }
+}
+@mixin mobile-only {
+    @media screen and (max-width:map-get($breakpoints,mobile)){
+        @content;
+    }
+}
+
+@keyframes hoverBtn{
+    0%{
+        transform: translate(-3px,-3px);
+    }
+    14%{
+        transform: translate(0px,-3px);
+    }
+    28%{
+        transform: translate(3px,-3px);
+    }
+    42%{
+        transform: translate(3px,0px);
+    }
+    57%{
+        transform: translate(3px,3px);
+    }
+    71%{
+        transform: translate(0,3px);
+    }
+    85%{
+        transform: translate(-3px,3px);
+    }
+    100%{
+        transform: translate(-3px,0px);
+    }
+}
+
+@keyframes hoverBtnReverse{
+    0%{
+        transform: translate(3px,3px);
+    }
+    14%{
+        transform: translate(0px,3px);
+    }
+    28%{
+        transform: translate(-3px,3px);
+    }
+    42%{
+        transform: translate(-3px,0px);
+    }
+    57%{
+        transform: translate(-3px,-3px);
+    }
+    71%{
+        transform: translate(0,-3px);
+    }
+    85%{
+        transform: translate(3px,-3px);
+    }
+    100%{
+        transform: translate(3px,0px);
+    }
+}

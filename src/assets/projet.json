@@ -1,0 +1,116 @@
+{
+    "projets":[
+        {
+            "id":"1",
+            "name":"Reservia",
+            "tittle":"Transformez une maquette en site web avec HTML & CSS",
+            "tags":["html","css","git"],
+            "competences":["Intégrer la maquette HTML et CSS","Les beakpoints(responsive)","Bibliothèque: Font Awesome","Les élèments sémantiques","Les validateurs W3C"],
+            "url":"https://alex6dev.github.io/AlexandreSix_2_04052021/",
+            "imgScreen":"https://zupimages.net/up/22/20/8t8z.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_2_04052021"
+        },
+        {            
+            "id":"2",
+            "name":"Ohmyfood",
+            "tittle":"Créer et dynamisez une page web avec des animations CSS",
+            "tags":["html","css","sass","git"],
+            "competences":["préprocesseur CSS: SASS","Animation CSS","Fonction: package.json","Commande dans un terminal"],
+            "url":"https://alex6dev.github.io/AlexandreSix_3_25052021/",
+            "imgScreen":"https://zupimages.net/up/22/20/60r8.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_3_25052021"
+        },
+        {
+            "id":"3",
+            "name":"GameOn",
+            "tittle":"Créer une landing page avec Javascript",
+            "tags":["html","css","sass","git","js","figma"],
+            "competences":["Language: Javascript(vanilla)","Commenter le code","Outils: Figma"],
+            "url":"https://alex6dev.github.io/AlexandreSix_4_30062021/",
+            "imgScreen":"https://zupimages.net/up/22/20/qj9y.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_4_30062021"
+        
+        },
+        {
+            "id":"4",
+            "name":"Fisheye",
+            "tittle":"Créer un site accessible pour une plateforme de photographes",
+            "tags":["html","css","sass","git","js","figma"],
+            "competences":["Page dynamique en fonction de l'ID","Triage des élèments en dynamime et possibiliter de modifier les paramètres","Page web accessible(règles WCAG du W3C)","Méthode: Design patterns"],
+            "url":"https://alex6dev.github.io/AlexandreSix_6_07082021/",
+            "imgScreen":"https://zupimages.net/up/22/20/x8r3.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_6_07082021"
+        },
+        {
+            "id":"5",
+            "name":"Les petits plats",
+            "tittle":"Développez un algorithme de recherche en JavaScript",
+            "tags":["html","css","sass","git","js","figma"],
+            "competences":["Algorithme de recherche en Javascript","Algorigramme via draw.io","Performance de recherche via Jsben.ch"],
+            "url":"https://alex6dev.github.io/AlexandreSix_7_28092021/",
+            "imgScreen":"https://zupimages.net/up/22/20/d26w.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_7_28092021"
+        },
+        {
+            "id":"6",
+            "name":"Billed",
+            "tittle":"Débuggez et testez un SaaS RH",
+            "tags":["html","css","git","js","jest"],
+            "competences":["Débugger une application types SaaS RH","Language: Jest","Tests unitaires et d'intégrations(Jest)","Plan test End-to-End","Outil: Notion"],
+            "url":"none",
+            "imgScreen":"https://zupimages.net/up/22/20/tlc5.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_9_27102021"
+        },
+        {
+            "id":"7",
+            "name":"Learn@Home",
+            "tittle":"Définissez les besoins pour une app de soutien scolaire",
+            "tags":["git","figma"],
+            "competences":["Gestion de projet Agile (Planning Poker, méthodes Kanban, etc ...)","Création de maquette pour client","Principe du Domain-Driven Design (méthode UML,diagrammes de cas, etc ...)"],
+            "url":"none",
+            "imgScreen":"https://zupimages.net/up/22/20/gk0s.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_10_23112021"
+        },
+        {
+            "id":"8",
+            "name":"Kasa",
+            "tittle":"Développez une application Web avec React et React Router",
+            "tags":["html","css","git","js","cra","react","figma"],
+            "competences":["Bibliothèque/framework: React.js, React Router, Create React App(CRA)","Une single page application avec du routing","Gérer les erreurs d'url"],
+            "url":"none",
+            "imgScreen":"https://zupimages.net/up/22/20/5kle.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_11_14122021"
+        },
+        
+        {
+            "id":"9",
+            "name":"SportSee",
+            "tittle":"Développez un tableau de bord d'analytics avec React",
+            "tags":["html","css","git","js","cra","react","figma"],
+            "competences":["Bibliothèque: Axios","Bibliothèque: Recharts (graphique)","API REST","Bien documenter le projet"],
+            "url":"none",
+            "imgScreen":"https://zupimages.net/up/22/20/bl9b.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_12_03012022"
+        },
+        {
+            "id":"10",
+            "name":"ArgentBank",
+            "tittle":"Utilisez une API pour un compte utilisateur bancaire avec React",
+            "tags":["html","css","git","js","cra","react","redux"],
+            "competences":["Bibliothèque: React-Redux","Authentification, utilisation de token, state manager","Outil: Swagger","Création d'un document Swagger avec méthode HTTP, route(Endpoint), description, paramètres, réponses possible"],
+            "url":"none",
+            "imgScreen":"https://zupimages.net/up/22/20/lblw.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_13_13022022"
+        },
+        {
+            "id":"11",
+            "name":"Wealth Health",
+            "tittle":"Faites passer une librairie jQuery vers React",
+            "tags":["html","css","git","js","cra","react","redux"],
+            "competences":["Passer une page web jQuery vers React","Outils: devtools chrome Lighthouse","Test des performances de chargement, accessibilité, bonne pratiques, SEO, PWA","Conversion d'un pluging jquery vers React personnalisable, ainsi que la publication sur npm"],
+            "url":"none",
+            "imgScreen":"https://zupimages.net/up/22/20/nuyt.png",
+            "urlGit":"https://github.com/Alex6dev/AlexandreSix_14_04032022"
+        }
+    ]
+}
