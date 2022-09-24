@@ -4,6 +4,14 @@ import imgRedux from '../assets/reduxLogo.png'
 import imgJest from '../assets/jestLogo.png'
 import imgFigma from '../assets/figmaLogo.png'
 import imgGitHub from '../assets/gitHubLogo.png'
+import imgSql from '../assets/SQL-logo.png'
+import imgJava from '../assets/java.webp'
+import imgBootstrap from '../assets/bootstrap-social.png'
+import imgJpa from '../assets/jpa200.png'
+import imgSpring from '../assets/springBoot.png'
+import imgDocker from '../assets/docker.webp'
+import imgNoSQL from '../assets/NoSQL.jpg'
+import imgAngular from '../assets/angular-logo.png'
 
 export const Competences=()=>{
     
@@ -76,7 +84,61 @@ export const Competences=()=>{
                     </li>
                 </ul>
                 <p className='competencePs'>Ps: retrouver le niveau de connaissance pour chacun des skills via les projets dans la rubrique suivant </p>
+                
+                <h3>Les stacks suivantes sont des technologies appris lors de ma formation chez M2I sur plusieurs petits projets </h3>
+                <ul className='ulM2ICompetance'>
+                    <li>
+                        <figure>
+                            <img src={imgSql} alt="logo SQL" className="logoHardSkills imgHid"></img>
+                            <figcaption></figcaption>
+                        </figure>
+                    </li>                    
+                    <li>
+                        <figure>
+                            <img src={imgJava} alt="logo Java" className="logoHardSkills"></img>
+                            <figcaption></figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src={imgBootstrap} alt="logo bootstrap" className="logoHardSkills"></img>
+                            <figcaption></figcaption>
+                        </figure>
+                    </li>                    
+                    <li>
+                        <figure>
+                            <img src={imgJpa} alt="logo JPA" className="logoHardSkills"></img>
+                            <figcaption></figcaption>
+                        </figure>
+                    </li>                    
+                    <li>
+                        <figure>
+                            <img src={imgSpring} alt="logo Spring boot" className="logoHardSkills"></img>
+                            <figcaption></figcaption>
+                        </figure>
+                    </li>                    
+                    <li>
+                        <figure>
+                            <img src={imgDocker} alt="logo Docker" className="logoHardSkills"></img>
+                            <figcaption></figcaption>
+                        </figure>
+                    </li>                    
+                    <li>
+                        <figure>
+                            <img src={imgNoSQL} alt="logo NoSQL" className="logoHardSkills"></img>
+                            <figcaption></figcaption>
+                        </figure>
+                    </li>                    
+                    <li>
+                        <figure>
+                            <img src={imgAngular} alt="logo Angular" className="logoHardSkills"></img>
+                            <figcaption></figcaption>
+                        </figure>
+                    </li>                    
+                </ul>
+                <p>Je vous invite à lire la fiche technique de la formation M2I que je suis <a href='https://drive.google.com/file/d/1gtnDqYZqLZfW_pZLaN8MPrXUgTF7dm4o/view?usp=sharing' target="_blank" rel="noreferrer">ici</a> .</p>
             </div>
+
         </section>
     )
 }

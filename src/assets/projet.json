@@ -111,6 +111,18 @@
             "url":"none",
             "imgScreen":"https://zupimages.net/up/22/20/nuyt.png",
             "urlGit":"https://github.com/Alex6dev/AlexandreSix_14_04032022"
+        },
+        {
+            "id":"12",
+            "name":"Taverne Gestion",
+            "tittle":"Création d'un jeu de type Gestion. Un projet de groupe (3 personnes) pour s'entraîner sur les nouvelles technologies apprises lors de la formation ",
+            "tags":[],
+            "competences":["Projet from scratch","Utilisation des divers outils et langages utiliser dans la formation cher M2I"],
+            "url":"none",
+            "imgScreen":"https://zupimages.net/up/22/38/ww99.png",
+            "urlGit":"https://github.com/AntonyA59/FilRougeGestionTarverne_AAA"
         }
     ]
 }
+
+

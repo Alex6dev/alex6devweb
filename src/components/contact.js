@@ -23,7 +23,7 @@ export const Contact=()=>{
                             <i className="fa-brands fa-linkedin"></i>
                             <a href="https://www.linkedin.com/in/alexandre-six/">Alexandre Six</a>
                         </div>
-                        <a href="./assets/CV_AlexandreSix.pdf"  download="CV_AlexandreSix.pdf"  target="_blank" ><button type="button" className="lienCv" >Télécharger mon CV</button></a>
+                        <a href="https://drive.google.com/file/d/14wVs7pWrbx5Ogf1JcNjgiSKykCajaa3K/view?usp=sharing" target="_blank" rel="noreferrer" ><button type="button" className="lienCv" >Voir mon CV</button></a>
                     </div>
                 </div>
             </div>

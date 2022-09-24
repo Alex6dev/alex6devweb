@@ -3,7 +3,12 @@ export const Xp=()=>{
         <section id="" className="sectionXp">
             <div className="post-it  impair">
                 <h2 className="tittleSection">Expérience profesionnelle</h2>
-                <ul>
+                <ul className="ulXP">
+                    <li className="elementListDiplome">
+                        <h3 className="timeDiplome "><time dateTime="2022">2022</time> || M2I</h3>
+                        <p className="nameDiplome poste">Etudiant Développeur Java EE + Angular</p>
+                        <p className="details">Réalisation d'un projet fil rouge qui regroupe toutes les technologies et outils utiliser tout au long de la formation </p>
+                    </li>
                     <li className="elementListDiplome">
                         <h3 className="timeDiplome "><time dateTime="2021">2021</time> - <time dateTime="2022">2022</time> || Openclassrooms</h3>
                         <p className="nameDiplome poste">Etudiant Développeur Frontend</p>

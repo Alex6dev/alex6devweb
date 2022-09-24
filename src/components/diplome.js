@@ -1,10 +1,16 @@
 export const Diplome=()=>{
 
     return(
-        <section>
+        <section className="sectionDiplome">
             <div className="post-it pair">
                 <h2 className="tittleSection">Diplôme - Formation </h2>
                 <ul>
+                <li className="elementListDiplome">
+                        <p className="timeDiplome">
+                            <time dateTime="2021">2022</time> || M2I 
+                        </p>
+                        <h3 className="nameDiplome">POE JAVA FullStack <span>(Spring Boot + Angular)</span></h3>
+                    </li>
                     <li className="elementListDiplome">
                         <p className="timeDiplome">
                             <time dateTime="2021">2021</time> - <time dateTime="2022">2022</time> || Openclassrooms

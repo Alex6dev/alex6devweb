@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 import { Competences } from "../components/competences"
 import { Contact } from "../components/contact"
 import { Diplome } from "../components/diplome"
@@ -17,29 +17,27 @@ gsap.registerPlugin(ScrollToPlugin,ScrollTrigger)
 
 export const HomePages=()=>{
     const [data,setData]=useState(dataLocale.projets)
-
+/*
     const scroll= (elem,delay,duration)=>{
         gsap.to(elem,{
             scrollTrigger:{
                 trigger:elem,
                 start:"-100px center",
-                markers:true,
+                markers:false,
             },
             x:-200 ,
             duration:1,
         })
-        console.log(elem)
 
     }
     useEffect(()=>{
         let postIt=document.getElementsByClassName("post-it")
-        console.log(postIt)
         
         for (let index = 0; index < postIt.length; index++) {
             scroll(postIt[index])
         }
     },[])
-
+*/
    return(
         <>
             <Header/>
