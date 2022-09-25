@@ -1,7 +1,7 @@
 {
     "projets":[
         {
-            "id":"1",
+            "id":0,
             "name":"Reservia",
             "tittle":"Transformez une maquette en site web avec HTML & CSS",
             "tags":["html","css","git"],
@@ -11,7 +11,7 @@
             "urlGit":"https://github.com/Alex6dev/AlexandreSix_2_04052021"
         },
         {            
-            "id":"2",
+            "id":1,
             "name":"Ohmyfood",
             "tittle":"Créer et dynamisez une page web avec des animations CSS",
             "tags":["html","css","sass","git"],
@@ -21,7 +21,7 @@
             "urlGit":"https://github.com/Alex6dev/AlexandreSix_3_25052021"
         },
         {
-            "id":"3",
+            "id":2,
             "name":"GameOn",
             "tittle":"Créer une landing page avec Javascript",
             "tags":["html","css","sass","git","js","figma"],
@@ -32,7 +32,7 @@
         
         },
         {
-            "id":"4",
+            "id":3,
             "name":"Fisheye",
             "tittle":"Créer un site accessible pour une plateforme de photographes",
             "tags":["html","css","sass","git","js","figma"],
@@ -42,7 +42,7 @@
             "urlGit":"https://github.com/Alex6dev/AlexandreSix_6_07082021"
         },
         {
-            "id":"5",
+            "id":4,
             "name":"Les petits plats",
             "tittle":"Développez un algorithme de recherche en JavaScript",
             "tags":["html","css","sass","git","js","figma"],
@@ -52,7 +52,7 @@
             "urlGit":"https://github.com/Alex6dev/AlexandreSix_7_28092021"
         },
         {
-            "id":"6",
+            "id":5,
             "name":"Billed",
             "tittle":"Débuggez et testez un SaaS RH",
             "tags":["html","css","git","js","jest"],
@@ -62,7 +62,7 @@
             "urlGit":"https://github.com/Alex6dev/AlexandreSix_9_27102021"
         },
         {
-            "id":"7",
+            "id":6,
             "name":"Learn@Home",
             "tittle":"Définissez les besoins pour une app de soutien scolaire",
             "tags":["git","figma"],
@@ -72,7 +72,7 @@
             "urlGit":"https://github.com/Alex6dev/AlexandreSix_10_23112021"
         },
         {
-            "id":"8",
+            "id":7,
             "name":"Kasa",
             "tittle":"Développez une application Web avec React et React Router",
             "tags":["html","css","git","js","cra","react","figma"],
@@ -83,7 +83,7 @@
         },
         
         {
-            "id":"9",
+            "id":8,
             "name":"SportSee",
             "tittle":"Développez un tableau de bord d'analytics avec React",
             "tags":["html","css","git","js","cra","react","figma"],
@@ -93,7 +93,7 @@
             "urlGit":"https://github.com/Alex6dev/AlexandreSix_12_03012022"
         },
         {
-            "id":"10",
+            "id":9,
             "name":"ArgentBank",
             "tittle":"Utilisez une API pour un compte utilisateur bancaire avec React",
             "tags":["html","css","git","js","cra","react","redux"],
@@ -103,7 +103,7 @@
             "urlGit":"https://github.com/Alex6dev/AlexandreSix_13_13022022"
         },
         {
-            "id":"11",
+            "id":10,
             "name":"Wealth Health",
             "tittle":"Faites passer une librairie jQuery vers React",
             "tags":["html","css","git","js","cra","react","redux"],
@@ -113,7 +113,7 @@
             "urlGit":"https://github.com/Alex6dev/AlexandreSix_14_04032022"
         },
         {
-            "id":"12",
+            "id":11,
             "name":"Taverne Gestion",
             "tittle":"Création d'un jeu de type Gestion. Un projet de groupe (3 personnes) pour s'entraîner sur les nouvelles technologies apprises lors de la formation ",
             "tags":[],

@@ -2,7 +2,7 @@ export const Header=()=>{
 
     return(
         <header className="header">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-xl navbar-light bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/"> 
                         <h1 className="headerTittle">Alex6Dev</h1>
