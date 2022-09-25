@@ -36,7 +36,6 @@ p{
     font-family: sans-serif;
     height: 70px;
     width: 70px;
-    margin-bottom:1rem;
     @include mobile-only{
         height: 50px;
         width: 50px;
@@ -63,11 +62,15 @@ figure{
         border-radius: 0 2rem;
     }
 }
-/*.tittleSection{
+ul{
+    list-style-type: none;
+}
+.tittleSection{
     position: relative;
     margin: 0;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
+    margin-bottom: 3rem;
     &::after{
         content: "";
         position: absolute;
@@ -78,6 +81,10 @@ figure{
         background-color: $clr-flash;
     }
 }
+section{
+    margin-top: 3rem;
+}
+/*
 .titre-competence {
     fill: #ffffff;
     font-weight: bold;

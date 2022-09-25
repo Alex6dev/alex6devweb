@@ -5,11 +5,11 @@ import imgJest from '../assets/jestLogo.png'
 import imgFigma from '../assets/figmaLogo.png'
 import imgGitHub from '../assets/gitHubLogo.png'
 import imgSql from '../assets/SQL-logo.png'
-import imgJava from '../assets/java.webp'
+import imgJava from '../assets/java.png'
 import imgBootstrap from '../assets/bootstrap-social.png'
 import imgJpa from '../assets/jpa200.png'
 import imgSpring from '../assets/springBoot.png'
-import imgDocker from '../assets/docker.webp'
+import imgDocker from '../assets/docker.png'
 import imgNoSQL from '../assets/NoSQL.jpg'
 import imgAngular from '../assets/angular-logo.png'
 
@@ -17,8 +17,8 @@ export const Competences=()=>{
     
     
     return(
-        <section className="sectionHardSkills" id='competences'>
-            <div className="hardSkillsContainer post-it impair">
+        <section className="col-11 col-lg-6 mx-auto" id='competences'>
+            <div className="post-it">
                 <h2 className="tittleSection">Hard Skills</h2>
                 <ul className='hardSkillsList'>
                     <li>
@@ -102,7 +102,7 @@ export const Competences=()=>{
                     <li>
                         <figure>
                             <img src={imgBootstrap} alt="logo bootstrap" className="logoHardSkills"></img>
-                            <figcaption></figcaption>
+                            <figcaption>Bootstrap</figcaption>
                         </figure>
                     </li>                    
                     <li>

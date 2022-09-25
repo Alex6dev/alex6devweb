@@ -93,7 +93,6 @@ p {
   font-family: sans-serif;
   height: 70px;
   width: 70px;
-  margin-bottom: 1rem;
 }
 @media screen and (max-width: 599px) {
   .svg-competence {
@@ -130,21 +129,32 @@ figure {
   }
 }
 
-/*.tittleSection{
-    position: relative;
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
-    &::after{
-        content: "";
-        position: absolute;
-        bottom: -1rem;
-        left: 0;
-        width: 50px;
-        height: 5px;
-        background-color: $clr-flash;
-    }
+ul {
+  list-style-type: none;
 }
+
+.tittleSection {
+  position: relative;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  margin-bottom: 3rem;
+}
+.tittleSection::after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  width: 50px;
+  height: 5px;
+  background-color: #F67095;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+/*
 .titre-competence {
     fill: #ffffff;
     font-weight: bold;
@@ -292,67 +302,79 @@ figure {
   border-radius: 2rem;
 }
 
+.post-it {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9efed;
+  border-radius: 0 5rem;
+  padding: 2rem;
+}
+.post-it::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 102%;
+  height: 103.5%;
+  border-radius: 0 5rem;
+  background: #91CC92;
+  background: -moz-linear-gradient(-45deg, #91CC92 0%, #F2EB8D 50%, #F67095 100%);
+  background: -webkit-linear-gradient(-45deg, #91CC92 0%, #F2EB8D 50%, #F67095 100%);
+  background: linear-gradient(135deg, #91CC92 0%, #F2EB8D 50%, #F67095 100%);
+  z-index: -1;
+}
+
+.elementListDiplome {
+  position: relative;
+  padding: 0 0 0 50px;
+  margin-top: 1.5rem;
+}
+.elementListDiplome::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #F2EB8D;
+  top: 5px;
+  left: -5px;
+}
+
+.timeDiplome {
+  color: #F67095;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.nameDiplome {
+  color: rgb(1, 121, 17);
+  font-size: 25px;
+}
+.nameDiplome span {
+  color: grey;
+  font-size: 20px;
+}
+
+.hardSkillsList {
+  display: flex;
+  margin: 2rem;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hardSkillsList li {
+  text-align: center;
+}
+
 /*
 
 
 
-.post-it{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    background-color: $clr-fond;
-    border-radius: 0 5rem;
-    padding: 2rem ;
-    box-shadow: 0 0 5px $clr-tertiaire;
-}
 
 
-.sectionDiplome ul{
-    margin-top: 3rem;
-}
-.elementListDiplome{
-    position: relative;
-    padding: 0 0 0 50px ;
-    &::after{
-        content: "";
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        border-radius: 10px;
-        background-color: $clr-tertiaire;
-        top: 5px;
-        left: -5px;
-    }
-}
-.timeDiplome{
-    color: $clr-flash;
-    font-size: 25px;
-    font-weight: 600;
-}
-.nameDiplome{
-    color: rgb(1, 121, 17);
-    font-size: 25px;
-    & span{
-        color: grey;
-        font-size: 20px;
-    }
-}
-
-
-
-
-.hardSkillsList{
-    display: flex;
-    margin: 2rem;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
-    & li{
-        text-align: center;
-    }
-}
 .ulM2ICompetance{
     display: flex;
     flex-direction: row;

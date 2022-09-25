@@ -124,27 +124,33 @@
     height: 50px;
     border-radius: 2rem; 
 }
-/*
-
-
-
 .post-it{
+    position: relative;
     display: flex;
     flex-direction: column;
-    width: 70%;
     background-color: $clr-fond;
     border-radius: 0 5rem;
     padding: 2rem ;
-    box-shadow: 0 0 5px $clr-tertiaire;
+    &::before{
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 102%;
+        height: 103.5%;
+        border-radius: 0 5rem;
+        background: #91CC92;
+        background: -moz-linear-gradient(-45deg, #91CC92 0%, #F2EB8D 50%, #F67095 100%);
+        background: -webkit-linear-gradient(-45deg, #91CC92 0%, #F2EB8D 50%, #F67095 100%);
+        background: linear-gradient(135deg, #91CC92 0%, #F2EB8D 50%, #F67095 100%);
+        z-index: -1;
+    }
 }
 
-
-.sectionDiplome ul{
-    margin-top: 3rem;
-}
 .elementListDiplome{
     position: relative;
     padding: 0 0 0 50px ;
+    margin-top: 1.5rem;
     &::after{
         content: "";
         position: absolute;
@@ -160,6 +166,7 @@
     color: $clr-flash;
     font-size: 25px;
     font-weight: 600;
+    margin: 0;
 }
 .nameDiplome{
     color: rgb(1, 121, 17);
@@ -170,9 +177,6 @@
     }
 }
 
-
-
- 
 .hardSkillsList{
     display: flex;
     margin: 2rem;
@@ -185,6 +189,12 @@
         text-align: center;
     }
 }
+/*
+
+
+
+
+ 
 .ulM2ICompetance{
     display: flex;
     flex-direction: row;
